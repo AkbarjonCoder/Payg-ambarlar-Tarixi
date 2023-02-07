@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PaygambarlarTarixi" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="menuStyle" parent="">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="Theme.PaygambarlarTarixi.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.PaygambarlarTarixi.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.PaygambarlarTarixi.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="circle">
+
+        <item name="cornerSize">10%</item>
+
+    </style>
+
+    <style name="color">
+
+        <item name="colorAccent">@color/primary</item>
+
+    </style>
+
+</resources>

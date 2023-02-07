@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/bis"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".bottoms.AboutFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@color/primary"
+        android:textStyle="bold"
+        android:fontFamily="@font/shrift"
+        android:text="Ma'lumotnoma"
+        android:gravity="center"
+        android:layout_marginVertical="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_margin="4dp"
+            app:cardBackgroundColor="@color/primary"
+            app:cardCornerRadius="15dp"
+            android:layout_height="180dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="-32dp"
+                app:shapeAppearanceOverlay="@style/circle"
+                android:src="@drawable/islomuz"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IslomUz"
+                android:fontFamily="@font/shrift"
+                android:gravity="center"
+                android:layout_gravity="bottom|center"
+                android:textSize="20sp"
+                android:layout_marginBottom="28dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_margin="4dp"
+            app:cardBackgroundColor="@color/primary"
+            app:cardCornerRadius="15dp"
+            android:layout_height="180dp">
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-32dp"
+                app:shapeAppearanceOverlay="@style/circle"
+                android:src="@drawable/avzalaka"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Afzal\n Rafiqov"
+                android:fontFamily="@font/shrift"
+                android:gravity="center"
+                android:layout_gravity="bottom|center"
+                android:textSize="20sp"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_margin="4dp"
+            app:cardBackgroundColor="@color/primary"
+            app:cardCornerRadius="15dp"
+            android:layout_height="180dp">
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="-32dp"
+                app:shapeAppearanceOverlay="@style/circle"
+                android:src="@drawable/islomuz"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IslomUz"
+                android:layout_gravity="bottom|center"
+                android:textSize="20sp"
+                android:layout_marginBottom="28dp"
+                android:fontFamily="@font/shrift"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/primary"
+        app:cardCornerRadius="15dp"
+        android:layout_margin="4dp">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_margin="15dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:fontFamily="@font/shrift"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Xurmatli platformamiz foydalanuvchilari. Avvalo sizlar ilovamizdan foydalanayotganingiz va aynan bizni tanlaganingiz uchun rahmat. Sizlar bu ilova orqali tarixda yashab o'tgan payg'ambarlarimiz haqida juda ham foydali bilimlar olishingiz mumkin. Bizning ham maqsadimiz yurtdoshlarimizga foydasi tegadigan ilovalar ishlab chiqish. \n\nBu ilova orqali siz:\n -Payg'ambarlar tarixini audio formatda \n -Ular tirik davrida turli xil jonzotlar bilan sodir bo'lgan hodisalarni video formatda foydalansangiz bo'ladi. \n\nIlovamizda qo'llanilgan manbalar: \n -Afzal Rafiqov o'qigan audiolar \n -IslomUz youtube platformasidagi videolar \n -va boshqa internet saytlari \n\nIlovamiz sifatli chiqishi uchun bu manbalar mualliflariga kattakon rahmatlar aytib qolamiz!"/>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
