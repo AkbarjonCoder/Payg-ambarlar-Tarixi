@@ -176,6 +176,7 @@ class MainActivity : AppCompatActivity() {
                         )
                     )
                 }
+
                 R.id.dasturchi -> {
                     startActivity(
                         Intent(
