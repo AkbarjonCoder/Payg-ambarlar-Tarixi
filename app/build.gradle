@@ -5,15 +5,15 @@ plugins {
 }
 
 android {
-    namespace 'com.example.paygambarlartarixi'
+    namespace 'uz.tarix.paygambarlartarixi'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.paygambarlartarixi"
+        applicationId "uz.tarix.paygambarlartarixi"
         minSdk 21
         targetSdk 32
-        versionCode 1
-        versionName "1.0"
+        versionCode 8
+        versionName "8.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -64,4 +64,6 @@ dependencies {
 
     kapt "androidx.room:room-compiler:2.4.3"
 
+    // Google Admob
+    implementation 'com.google.android.gms:play-services-ads:21.5.0'
 }

@@ -6,7 +6,7 @@
     android:id="@+id/bis"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".bottoms.AboutFragment">
+    tools:context="com.tarix.paygambarlartarixi.bottoms.AboutFragment">
 
     <TextView
         android:layout_width="match_parent"

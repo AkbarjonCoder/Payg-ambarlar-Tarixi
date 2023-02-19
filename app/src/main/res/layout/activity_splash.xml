@@ -6,7 +6,7 @@
     android:background="@color/primary"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SplashActivity">
+    tools:context="com.tarix.paygambarlartarixi.SplashActivity">
 
     <ImageView
         android:id="@+id/imageView4"

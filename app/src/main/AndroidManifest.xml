@@ -11,7 +11,7 @@
     </queries>
 
     <application
-        android:name="uz.savdogar.mydatabase.MyApp"
+        android:name="com.tarix.paygambarlartarixi.MyApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -22,28 +22,28 @@
         android:theme="@style/Theme.PaygambarlarTarixi"
         tools:targetApi="31">
         <activity
-            android:name=".MediaActivity"
+            android:name="com.tarix.paygambarlartarixi.MediaActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".bottoms.MainActivity"
+            android:name="com.tarix.paygambarlartarixi.bottoms.MainActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".AudioActivity"
+            android:name="com.tarix.paygambarlartarixi.AudioActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".AloqaActivity"
+            android:name="com.tarix.paygambarlartarixi.AloqaActivity"
             android:exported="false"
             android:label="@string/title_activity_aloqa"
             android:theme="@style/Theme.PaygambarlarTarixi.NoActionBar">
@@ -52,8 +52,9 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".SplashActivity"
-            android:exported="true">
+            android:name="com.tarix.paygambarlartarixi.SplashActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -64,6 +65,9 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2457201445802031~2627397251" />
     </application>
 
 </manifest>
